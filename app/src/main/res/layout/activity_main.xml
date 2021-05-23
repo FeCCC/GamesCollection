@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="1dp">
+
+        <Button
+            android:id="@+id/mine"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="-4dp"
+            android:layout_marginBottom="-4dp"
+            android:layout_weight="1"
+            android:text="扫雷"
+            android:textColor="#F1FAEE"
+            android:textSize="@android:dimen/notification_large_icon_height"
+            app:backgroundTint="#FF6B6B" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="贪吃蛇"
+            android:textColor="#FFFFFF"
+            android:textSize="@android:dimen/notification_large_icon_height"
+            android:layout_marginBottom="-4dp"
+            android:layout_marginTop="-4dp"
+            app:backgroundTint="#4ECDC4" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="数独"
+            android:textColor="#1A535C"
+            android:textSize="@android:dimen/notification_large_icon_height"
+            android:layout_marginBottom="-4dp"
+            android:layout_marginTop="-4dp"
+            app:backgroundTint="#FFE66D" />
+
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
