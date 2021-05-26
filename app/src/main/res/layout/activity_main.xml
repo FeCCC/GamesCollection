@@ -40,14 +40,15 @@
             app:backgroundTint="#4ECDC4" />
 
         <Button
+            android:id="@+id/game2048"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginTop="-4dp"
+            android:layout_marginBottom="-4dp"
             android:layout_weight="1"
-            android:text="数独"
+            android:text="2048"
             android:textColor="#1A535C"
             android:textSize="@android:dimen/notification_large_icon_height"
-            android:layout_marginBottom="-4dp"
-            android:layout_marginTop="-4dp"
             app:backgroundTint="#FFE66D" />
 
 

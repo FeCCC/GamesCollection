@@ -19,4 +19,10 @@ public class MineSweeper extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mine_sweeper);
     }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu){
+        getMenuInflater().inflate(R.menu.menu_main,menu);
+        return true;
+    }
 }

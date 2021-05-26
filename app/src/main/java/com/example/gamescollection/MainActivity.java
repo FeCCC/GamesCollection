@@ -41,6 +41,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button btn2048 = findViewById(R.id.game2048);
+        btn2048.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,Game2048.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
     @Override

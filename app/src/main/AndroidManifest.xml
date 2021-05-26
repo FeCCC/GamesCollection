@@ -30,6 +30,18 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".Game2048"
+            android:label="Game2048"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.GamesCollection.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.game2048" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
