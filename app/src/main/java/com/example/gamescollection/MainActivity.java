@@ -3,7 +3,6 @@ package com.example.gamescollection;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.example.gamescollection.sudoku.Board;
 import com.google.android.material.snackbar.Snackbar;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -42,11 +41,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button btnSudoku = findViewById(R.id.sudoku);
-        btnSudoku.setOnClickListener(new View.OnClickListener() {
+        Button btn2048 = findViewById(R.id.game2048);
+        btn2048.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, com.example.gamescollection.sudoku.Board.class);
+                Intent intent = new Intent(MainActivity.this,Game2048.class);
                 startActivity(intent);
             }
         });
