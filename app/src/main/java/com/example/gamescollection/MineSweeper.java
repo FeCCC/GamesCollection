@@ -19,4 +19,5 @@ public class MineSweeper extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mine_sweeper);
     }
+
 }

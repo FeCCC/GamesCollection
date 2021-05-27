@@ -29,25 +29,26 @@
             app:backgroundTint="#FF6B6B" />
 
         <Button
+            android:id="@+id/sudoku"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginTop="-4dp"
+            android:layout_marginBottom="-4dp"
             android:layout_weight="1"
-            android:text="贪吃蛇"
+            android:text="数独"
             android:textColor="#FFFFFF"
             android:textSize="@android:dimen/notification_large_icon_height"
-            android:layout_marginBottom="-4dp"
-            android:layout_marginTop="-4dp"
             app:backgroundTint="#4ECDC4" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginTop="-4dp"
+            android:layout_marginBottom="-4dp"
             android:layout_weight="1"
             android:text="数独"
             android:textColor="#1A535C"
             android:textSize="@android:dimen/notification_large_icon_height"
-            android:layout_marginBottom="-4dp"
-            android:layout_marginTop="-4dp"
             app:backgroundTint="#FFE66D" />
 
 

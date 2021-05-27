@@ -30,6 +30,17 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name="Board"
+            android:label="Board"
+            android:theme="@style/Theme.GamesCollection.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.Mine" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
