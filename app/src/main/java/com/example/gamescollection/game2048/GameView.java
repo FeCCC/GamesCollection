@@ -279,6 +279,11 @@ public class GameView extends GridLayout {
         ALL:
         for(int y = 0;y<4;y++){
             for(int x = 0;x<4;x++){
+                if(cardsMap[x][y].getNum()==2048){
+                    complete = true;
+                    break ALL;
+                }
+
                 if(cardsMap[x][y].getNum()==0||
                         (x>0&&cardsMap[x][y].equals(cardsMap[x-1][y]))||
                         (x<3&&cardsMap[x][y].equals(cardsMap[x+1][y]))||
