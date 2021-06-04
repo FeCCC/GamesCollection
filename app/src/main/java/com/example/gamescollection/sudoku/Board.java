@@ -17,6 +17,7 @@ import java.util.List;
 
 public class Board extends RelativeLayout implements View.OnClickListener {
     private final String TAG = Board.class.getSimpleName();
+//    public Object setGameOverCallBack;
 
     private List<List<Grid>> mGridArray = new ArrayList<>(); //3*3 的Grid
     private List<List<TextView>> mCellArray; //9*9的Cell
@@ -104,6 +105,10 @@ public class Board extends RelativeLayout implements View.OnClickListener {
     public void setGameOverCallBack(GameOverCallBack mGameOverCallBack) {
         this.mGameOverCallBack = mGameOverCallBack;
     }
+
+
+    
+
 
     @Override
     public void onClick(View v) {

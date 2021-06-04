@@ -50,6 +50,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button sudoku = findViewById(R.id.sudoku);
+        sudoku.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,Sudoku.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
     @Override

@@ -21,11 +21,11 @@
         </activity>
 
         <activity
-            android:name=".MineSweeper"
-            android:label="MineSweeper"
+            android:name=".Sudoku"
+            android:label="Sudoku"
             android:theme="@style/Theme.GamesCollection.NoActionBar">
             <intent-filter>
-                <action android:name="android.intent.action.Mine" />
+                <action android:name="android.intent.action.sudoku" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
