@@ -32,15 +32,6 @@ public class MainActivity extends AppCompatActivity {
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        Button btnMine = findViewById(R.id.mine);
-        btnMine.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MineSweeper.class);
-                startActivity(intent);
-            }
-        });
-
         Button btn2048 = findViewById(R.id.game2048);
         btn2048.setOnClickListener(new View.OnClickListener() {
             @Override
