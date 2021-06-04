@@ -50,6 +50,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button snake = findViewById(R.id.snake);
+        snake.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,Snake.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
     @Override

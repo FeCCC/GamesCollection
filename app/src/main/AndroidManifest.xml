@@ -42,6 +42,18 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".Snake"
+            android:label="Snake"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.GamesCollection.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.Snake" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

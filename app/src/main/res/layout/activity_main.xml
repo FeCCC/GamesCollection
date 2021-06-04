@@ -17,13 +17,13 @@
         tools:layout_editor_absoluteX="1dp">
 
         <Button
-            android:id="@+id/mine"
+            android:id="@+id/snake"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="-4dp"
             android:layout_marginBottom="-4dp"
             android:layout_weight="1"
-            android:text="扫雷"
+            android:text="贪吃蛇"
             android:textColor="#F1FAEE"
             android:textSize="@android:dimen/notification_large_icon_height"
             app:backgroundTint="#FF6B6B" />
