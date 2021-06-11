@@ -55,7 +55,7 @@ public class Register extends AppCompatActivity {
                 Intent intent = new Intent(this, MainActivity.class);
                 startActivity(intent);//启动跳转
             } else {
-                Toast.makeText(this, "密码不能有特殊符号", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "密码不能有特殊符号或长度不满6位", Toast.LENGTH_SHORT).show();
             }
         }
     }
