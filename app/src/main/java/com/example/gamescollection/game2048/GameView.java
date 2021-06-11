@@ -291,7 +291,6 @@ public class GameView extends GridLayout {
                         (y<3&&cardsMap[x][y].equals(cardsMap[x][y+1]))){
 
                     complete = false;
-                    break ALL;
                 }
             }
         }
