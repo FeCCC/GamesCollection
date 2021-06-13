@@ -25,7 +25,7 @@ public class Register extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
-        mys = new Mysqlist(this, "zhu_c", null, 1);//使用halper创建数据库
+        mys = new Mysqlist(this, "zhu_c", null, 1);//使用helper创建数据库
         sdb = mys.getWritableDatabase();
 
         Button button3 = findViewById(R.id.button3);

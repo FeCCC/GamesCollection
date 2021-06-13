@@ -33,7 +33,7 @@ public class Login extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        mys = new Mysqlist(this, "zhu_c", null, 1);//使用halper创建数据库
+        mys = new Mysqlist(this, "zhu_c", null, 1);//使用helper创建数据库
         r=mys.getReadableDatabase();
         w=mys.getWritableDatabase();
         mdata=new ArrayList<St>();
